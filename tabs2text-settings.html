@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+  /************************
+   ** TABS2TEXT
+   **   description: Export all your opened tabs to a CSV, JSON or Markdown file.
+   **   homepage_url: https://github.com/deniszanin/tabs2text
+   **
+   ** FILE: tabs2text-settings.html
+   ************************
+-->
+<html>
+  <head>
+    <title>Tabs2Text Extension</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/tabs2text-style.css"/>
+  </head>
+
+<body>
+  <!-- HEADER !-->
+  <header>
+    <div class="header-title-container">
+      <img src="IMG_SOURCE_ICO" id="ico-tabs2text" width="48" height="48" />
+    </div>
+
+    <small>
+      <span class="spn_title">Tabs2Text</span>
+      <br />
+      <span>Version</span>: <span id="v-current-version">V_CURRENT_VERSION</span>
+      <br /><br />
+      <span>Much more info at <a class="lnk_info" href="https://github.com/deniszanin/tabs2text" target="_blank">Github page</a><br />
+    </small>
+  </header>
+  <!-- /header !-->
+
+  <!-- SETTINGS SECTION !-->
+  <section class="settings_section">
+    <h2>Export ALL tabs to the file?</h2>
+    <div class="options_group">
+      <input id="export_allTabs_yes" name="export_allTabs_radio" type="radio" value="false" />
+      <label for="export_allTabs_yes">Yes</label>
+    </div>
+    <div class="options_group">
+      <input id="export_allTabs_no" name="export_allTabs_radio" type="radio" value="true" checked />
+      <label for="export_allTabs_no">No</label>
+    </div>
+  </section>
+
+  <section class="settings_section">
+    <h2>File format</h2>
+    <div class="options_group">
+      <input id="export_type_r_csv" name="format_file_radio" type="radio" value="CSV" checked />
+      <label for="export_type_r_csv">CSV</label>
+    </div>
+    <div class="options_group">
+      <input id="export_type_r_json" name="format_file_radio" type="radio" value="JSON" />
+      <label for="export_type_r_json">JSON</label>
+    </div>
+    <div class="options_group">
+      <input id="export_type_r_md" name="format_file_radio" type="radio" value="MD" />
+      <label for="export_type_r_md">Markdown</label>
+    </div>
+  </section>
+  <!-- /settings section !-->
+
+  <br />
+
+    <!-- FOOTER !-->
+  <footer>
+    <a class="btn_generate" id="tabs-generateCSV" href="#">Generate file</a>
+    <a class="btn_about" id="tabs-aboutEXT" href="#">About this!</a>
+  </footer>
+  <!-- /footer !-->
+
+  <!-- LOAD SCRIPTS !-->
+  <script src="tabs2text.js"></script>
+  <!-- /load scripts !-->
+</body>
+
+</html>
