@@ -1,0 +1,68 @@
+{
+	// GLOBAL MESSAGES
+	"appName": {
+		"message": "Tabs2Text"
+	},
+	"appDesc": {
+		"message": "Exporte todas suas abas abertas para um arquivo CSV, HTML, JSON ou Markdown."
+	},
+	"commandDesc": {
+		"message": "Exporta as abas para um arquivo."
+	},
+	// POPUP PAGE
+	"pagePopup_title": {
+		"message": "Tabs2Text Extensão"
+	},
+	"lbl_header_popup_version": {
+		"message": "Versão"
+	},
+	"lbl_header_popup_moreinfo": {
+		"message": "Muito mais info em "
+	},
+	"lbl_export_allTabs_popup_title": {
+		"message": "Exportar todas as abas para arquivo?"
+	},
+	"lbl_export_allTabs_popup_yes": {
+		"message": "Sim"
+	},
+	"lbl_export_allTabs_popup_no": {
+		"message": "Não"
+	},
+	"lbl_export_type_popup_title": {
+		"message": "Formato do arquivo"
+	},
+	"btn_generate": {
+		"message": "Gerar arquivo"
+	},
+	"btn_open_preferences": {
+		"message": "Preferências..."
+	},
+	"btn_about": {
+		"message": "Sobre!"
+	},
+	// SETTINGS PAGE
+	"pageSettings_title": {
+		"message": "Tabs2Text Extensão - Ajustes"
+	},
+	"lbl_header_settings_title": {
+		"message": "Tabs2Text Ajustes"
+	},
+	"lbl_export_allTabs_settings_title": {
+		"message": "Exportar todas as abas?"
+	},
+	"lbl_export_allTabs_settings_yes": {
+		"message": "Sim, exportar de todas janelas."
+	},
+	"lbl_export_allTabs_settings_no": {
+		"message": "Não, apenas desta janela."
+	},
+	"lbl_export_type_settings_title": {
+		"message": "Formato de arquivo?"
+	},
+	"btn_save_preferences": {
+		"message": "Salvar ajustes"
+	},
+	"lbl_save_preferences_action": {
+		"message": "Salvo!"
+	}
+}

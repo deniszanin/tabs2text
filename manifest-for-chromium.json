@@ -1,0 +1,70 @@
+{
+  "background": {
+      "scripts": [
+        "background.js"
+      ]
+  },
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "icons/t2f-16.png",
+      "32": "icons/t2f-32.png",
+      "48": "icons/t2f-48.png",
+      "96": "icons/t2f-96.png"
+    },
+    "default_popup": "tabs2text-popup.html",
+    "default_title": "Tabs2Text"
+  },
+
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+
+  "commands": {
+    "t2t-export": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "windows": "Ctrl+Shift+U"
+      },
+      "description": "__MSG_commandDesc__",
+      "global": true
+    }
+  },
+
+  "default_locale": "en",
+
+  "description": "__MSG_appDesc__",
+
+  "homepage_url": "https://github.com/deniszanin/tabs2text",
+
+  "icons": {
+      "16": "icons/t2f-16.png",
+      "32": "icons/t2f-32.png",
+      "48": "icons/t2f-48.png",
+      "96": "icons/t2f-96.png",
+      "128": "icons/t2f-128.png"
+  },
+
+  "incognito": "spanning",
+
+  "manifest_version": 2,
+
+  "minimum_chrome_version": "55",
+
+  "name": "Tabs2Text",
+
+  "options_ui": {
+    "page": "tabs2text-settings.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "downloads",
+    "storage",
+    "*://*/*"
+  ],
+  
+  "version": "2020.6.11"
+}

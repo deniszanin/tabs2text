@@ -1,7 +1,8 @@
 /************************
 ** TABS2TEXT
-**   description: Export all your opened tabs to a CSV, JSON or Markdown file.
+**   description: Export all your opened tabs to a CSV, HTML, JSON or Markdown file.
 **   homepage_url: https://github.com/deniszanin/tabs2text
+**   license: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 **
 ** FILE: tabs2text-style.css
 ************************/
@@ -9,9 +10,9 @@
 /* CSS STYLE: global variables; */
 :root {
 	--space-delimiter:5px;
-	--popup-min-w:300px;
-	--popup-max-w:320px;
-	--popup-min-h:350px;
+	--popup-min-w:320px;
+	--popup-max-w:350px;
+	--popup-min-h:400px;
 }
 
 /* CSS STYLE: apply LIGHT MODE theme; */
@@ -139,7 +140,7 @@ header small span.spn_title {
 footer {
 	min-width: var(--popup-min-w);
 	display: inline;
-	margin: var(--space-delimiter);
+	/*margin: var(--space-delimiter);*/
 	text-align: center;
 }
 
@@ -159,6 +160,27 @@ footer a.btn_generate {
 }
 
 footer a.btn_generate:hover {
+	color: var(--bckg-body);
+	background-color: var(--bckg-button-hover-gener);
+	border:0.1em solid var(--bckg-button-hover-gener);
+}
+
+footer a.btn_open_preferences {
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid var(--text-main);
+	margin:5px 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color: var(--text-main);
+	background-color: var(--bckg-button);
+	text-align:center;
+	transition: all 0.2s;
+}
+
+footer a.btn_open_preferences:hover {
 	color: var(--bckg-body);
 	background-color: var(--bckg-button-hover-gener);
 	border:0.1em solid var(--bckg-button-hover-gener);
@@ -185,6 +207,42 @@ footer a.btn_about:hover {
 	border: 0.1em solid var(--bckg-button-hover-about);
 }
 
+/* CSS STYLE: settings page footer; */
+footer.pref_footer {
+	min-width: var(--popup-min-w);
+	max-width: var(--popup-max-w);
+	display: inline;
+	margin: var(--space-delimiter);
+	text-align: center;
+}
+
+footer.pref_footer a.btn_save {
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid var(--text-main);
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color: var(--text-main);
+	background-color: var(--bckg-button);
+	text-align:center;
+	transition: all 0.2s;
+}
+
+footer.pref_footer a.btn_save:hover {
+	color: var(--bckg-body);
+	background-color: var(--bckg-button-hover-about);
+	border: 0.1em solid var(--bckg-button-hover-about);
+}
+
+footer.pref_footer span.spn_save_status {
+	color: var(--bckg-header);
+	font-size: 16px;
+	font-weight: bold;
+}
+
 /* CSS STYLE: option section; */
 .settings_section {
 	padding: 14px;
@@ -198,6 +256,20 @@ footer a.btn_about:hover {
 }
 
 .settings_section h2 {
+	background-color: var(--bckg-section);
+}
+
+.pref_settings_section {
+	padding: 14px;
+	min-width: var(--popup-min-w);
+	max-width: var(--popup-max-w);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	background-color: var(--bckg-section);
+}
+
+.pref_settings_section h2 {
 	background-color: var(--bckg-section);
 }
 

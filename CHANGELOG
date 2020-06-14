@@ -1,0 +1,12 @@
+2020.06.11:
+    * Fix major bugs
+    * Remove unused code (cleaning code)
+    * Add localization for:
+        - en, en_GB, en_US, pt_BR, pt_PT
+    * Include HTML as an export option
+    * Add preferences panel to remember user options (options are saved locally)
+    * Release for Google Chrome
+
+2020.04.24:
+    * Release for Mozilla Firefox
+    * First version

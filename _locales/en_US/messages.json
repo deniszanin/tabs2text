@@ -1,0 +1,68 @@
+{
+	// GLOBAL MESSAGES
+	"appName": {
+		"message": "Tabs2Text"
+	},
+	"appDesc": {
+		"message": "Export all your opened tabs to a CSV, HTML, JSON or Markdown file."
+	},
+	"commandDesc": {
+		"message": "Export current browser tabs to file."
+	},
+	// POPUP PAGE
+	"pagePopup_title": {
+		"message": "Tabs2Text Extension"
+	},
+	"lbl_header_popup_version": {
+		"message": "Version"
+	},
+	"lbl_header_popup_moreinfo": {
+		"message": "Much more info at "
+	},
+	"lbl_export_allTabs_popup_title": {
+		"message": "Export all tabs to file?"
+	},
+	"lbl_export_allTabs_popup_yes": {
+		"message": "Yes"
+	},
+	"lbl_export_allTabs_popup_no": {
+		"message": "No"
+	},
+	"lbl_export_type_popup_title": {
+		"message": "File format"
+	},
+	"btn_generate": {
+		"message": "Generate file"
+	},
+	"btn_open_preferences": {
+		"message": "Preferences..."
+	},
+	"btn_about": {
+		"message": "About this!"
+	},
+	// SETTINGS PAGE
+	"pageSettings_title": {
+		"message": "Tabs2Text Extension - Settings"
+	},
+	"lbl_header_settings_title": {
+		"message": "Tabs2Text Settings"
+	},
+	"lbl_export_allTabs_settings_title": {
+		"message": "Export all tabs?"
+	},
+	"lbl_export_allTabs_settings_yes": {
+		"message": "Yes, export from all windows."
+	},
+	"lbl_export_allTabs_settings_no": {
+		"message": "No, only the current window."
+	},
+	"lbl_export_type_settings_title": {
+		"message": "Default file format?"
+	},
+	"btn_save_preferences": {
+		"message": "Save preferences"
+	},
+	"lbl_save_preferences_action": {
+		"message": "Saved!"
+	}
+}

@@ -1,0 +1,79 @@
+{
+  "applications": {
+    "gecko": {
+      "strict_min_version": "58.0",
+      "id": "tabs2text@github.deniszanin"
+    }
+  },
+
+  "background": {
+      "scripts": [
+        "background.js"
+      ]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0"
+    }
+  },
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "icons/t2f-ico.svg",
+      "32": "icons/t2f-ico.svg",
+      "48": "icons/t2f-ico.svg",
+      "96": "icons/t2f-ico.svg"
+    },
+    "default_popup": "tabs2text-popup.html",
+    "default_title": "Tabs2Text"
+  },
+
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+
+  "commands": {
+    "t2t-export": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "windows": "Ctrl+Shift+U"
+      },
+      "description": "__MSG_commandDesc__"
+    }
+  },
+
+  "default_locale": "en",
+
+  "description": "__MSG_appDesc__",
+
+  "homepage_url": "https://github.com/deniszanin/tabs2text",
+
+  "icons": {
+      "16": "icons/t2f-ico.svg",
+      "32": "icons/t2f-ico.svg",
+      "48": "icons/t2f-ico.svg",
+      "96": "icons/t2f-ico.svg",
+      "128": "icons/t2f-ico.svg"
+  },
+
+  "incognito": "spanning",
+
+  "manifest_version": 2,
+
+  "name": "Tabs2Text",
+
+  "options_ui": {
+    "page": "tabs2text-settings.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  
+  "version": "2020.6.11"
+}
