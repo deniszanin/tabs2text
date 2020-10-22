@@ -7,7 +7,13 @@ It was developed in a few days of COVID-19 quarantine to easily export all of my
 
 ### Install
 
+#### Mozilla Firefox
+
 It can be installed directly from [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/tabs2text/) page, or downloading the source code available here. See [Debugging | Firefox Extension Workshop](https://extensionworkshop.com/documentation/develop/debugging/) for information about debugging.
+
+#### Google Chrome
+
+It can be installed directly from [Chrome Web Store](https://chrome.google.com/webstore/detail/tabs2text/cgajadebepocjjpimelagpannemlggoi?hl=en-US) page.
 
 ### Version
 
